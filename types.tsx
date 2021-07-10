@@ -3,20 +3,26 @@
  * https://reactnavigation.org/docs/typescript/
  */
 
+import { StyleProp } from "react-native";
+
 export type RootStackParamList = {
-  Root: undefined;
-  NotFound: undefined;
+  Home: undefined;
+  Allocation:{seatArray:string,noOfPassengers:string};
 };
 
-export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+export type TextInputProps = {
+  placeholder?: string;
+  value?: string | undefined;
+  error?: string;
+  label?: string;
+  onChangeText: Function;
+  onSubmitEditing?: undefined;
+  style?: StyleProp<any>;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
-};
-
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type ButtonProps = {
+  title: string;
+  onPress: Function;
+  style?: StyleProp<any>;
+  isDisabled?: boolean;
 };

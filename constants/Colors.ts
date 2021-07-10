@@ -1,19 +1,11 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
+// https://chir.ag/projects/name-that-color  For color naming
 
 export default {
-  light: {
-    text: '#000',
-    background: '#fff',
-    tint: tintColorLight,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#fff',
-    background: '#000',
-    tint: tintColorDark,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorDark,
-  },
+  White: "#FFFFFF",
+  Black: "#000000",
+  Black2: "rgba(0, 0, 0, 0.5)",
+  Black3: "rgba(0, 0, 0, 0.25)",
+  Athens_Gray: "#F8F9FA",
+  Concrete: "#F2F2F2",
+  Alizarin_Crimson: "#EE2737",
 };
