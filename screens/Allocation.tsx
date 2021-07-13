@@ -10,7 +10,7 @@ import {
 import { ScrollView } from "react-native-gesture-handler";
 import APButton from "../components/APButton";
 import APTextInput from "../components/APTextInput";
-import colors from "../constants/Colors";
+import colors from "../constants/colors";
 import { assignSeats } from "../utils";
 
 import { RootStackParamList } from "../types";
